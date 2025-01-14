@@ -11,7 +11,7 @@ public class EsercizioDue {
         SortedSet<Integer> numbers = new TreeSet<>();
 
         for(int i = 0; i< n; i++){
-            int number = random.nextInt(100) + 1;
+            int number = random.nextInt(101);
             numbers.add(number);
         }
         System.out.println("---");

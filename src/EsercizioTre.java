@@ -17,7 +17,7 @@ public class EsercizioTre {
          phoneBook.remove("Luigi");
          System.out.println(phoneBook);
         System.out.println("Nella tua rubrica ci sono " + phoneBook.size() + "contatti");
-       // System.out.println(phoneBook.containsKey("Martina"));; // dispaly true o false
+       // System.out.println(phoneBook.containsKey("Martina")); // dispaly true o false
 
         //Stampiamo la rubrica in un formato tabella
         for(String i : phoneBook.keySet()){
